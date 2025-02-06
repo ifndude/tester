@@ -1,0 +1,7 @@
+seaborn==0.13.02
+scikit-learn==1.6.1
+
+#man checker om en pakke er required ved at bruge "pip show <insert package name>" også se om de er required af nogle andre pakker,
+#hvilket så betyder at den pakke ikke er required fordi at den bliver installeret automatisk af den anden pakke.
+
+#Her har vi altså fundet af matlablib ikke er behøvet da den hører under seaborn. 
